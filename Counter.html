@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+
+    <style>
+        #label{
+            display: block;
+            text-align: center;
+            font-family: Helvetica;
+            font-size: 10em;
+        }
+
+        #btn{
+            text-align: center;
+        }
+
+        .buttons{
+            padding: 10px 20px;
+            font-size: 1.5em;
+            color: whitesmoke;
+            background-color: hsl(214, 100%, 74%);
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.25s;
+
+        }
+
+        .buttons:hover{
+            background-color: hsl(214, 100%, 56%);
+        }
+    </style>
+</head>
+<body>
+    <label id="label">0</label><br>
+
+    <div id="btn">
+        <button id="decrese" class="buttons">DECREASE</button>
+        <button id="reset" class="buttons">RESET</button>
+        <button id="increse" class="buttons">INCREASE</button>
+    </div>
+
+
+    <script>
+        
+    const decrease = document.getElementById('decrese');
+    const reset = document.getElementById('reset');
+    const increase = document.getElementById('increse');
+    const label = document.getElementById('label');
+
+    let count = 0;
+
+    increase.onclick = function(){
+        count++;
+        label.textContent = count;
+    }
+
+    decrease.onclick = function(){
+        count--;
+        label.textContent = count;
+    }
+
+    reset.onclick = function(){
+        count = 0;
+        label.textContent = count;
+    }
+    </script>
+</body>
+</html>
