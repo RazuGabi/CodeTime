@@ -1,10 +1,17 @@
 # CodeTime
-My repository of program files.
+### My repository of files!
+---
+###### I made theese files to share my knolege with you!
+###### I decided to put all my intresting and usefull files here!
+---
+```java
+if(coding == true){
+  headphones = true;
+  focus(100);
+  DoNotDisturb();
+}
+```
+---
 
-
-Those are programs that i made for fun.
-I think those are intresting.
-
-What do you think?
-
-# 😁
+### Plese give a star. Your support matters!
+---
