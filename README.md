@@ -2,7 +2,7 @@
 ### My repository of files!
 ---
 ###### I made theese files to share my knolege with you!
-###### I decided to put all my intresting and usefull files here!
+###### I decided to put some of my intresting and usefull files here!
 ---
 ```java
 if(coding == true){
