@@ -1,1 +1,1 @@
-while True: print(eval(input(">>>")))
+while True: print(eval(input(">>>  ")))
